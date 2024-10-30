@@ -1,0 +1,91 @@
+/** Custom stylesheet for the YD MediaPay WP Plugin ver 0.1.0 **/
+
+@CHARSET "UTF-8";
+
+div.paywall.mediapay {
+    margin: 24px 8px;
+    padding: 26px 24px 46px;
+    font-weight: normal;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    box-shadow: 0px 4px 10px -1px rgba(200, 200, 200, 0.7);
+    text-align: center;
+}
+
+div.mediapay h3 {
+	display: block;
+	padding: 30px 0 0 221px;
+	height: 80px;
+	margin: 0;
+	background-image:url('../img/media-pay-logo.gif');
+	background-repeat:no-repeat;
+	color: #515151;
+	text-align: right;
+	vertical-align: baseline;
+}
+
+div.mediapay p.mp_auth_failure {
+	font-weight: bold;
+	color: #C00;
+}
+
+div.mediapay p.please {
+	text-align: center;
+	padding: 0 50px 0 0;
+	margin: 0 0 10px;
+}
+
+div.mediapay form#paywall_form {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin: 0 0 15px;
+}
+
+div.mediapay ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.mediapay ul li {
+	display: list-item;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.login div.mediapay ul {
+	margin: 5px 0;
+}
+
+.login div.mediapay ul li {
+	border: 1px dashed #333;
+}
+
+div.mediapay ul li span.sep.sep1 {
+	width: 19%;	
+}
+
+div.mediapay ul li span.sep.sep2 {
+	width: 44%;	
+}
+
+div.mediapay ul li span.sep.sep3 {
+	width: 29%;	
+}
+
+div.mediapay ul li span {
+	display: inline-block;
+	padding: 0 3px;
+	vertical-align: top;
+}
+
+div.mediapay ul li span.number {
+	font-weight: bold;	
+}
+
+div.mediapay ul li img.flag {
+	padding: 0 3px 0 0;
+}
